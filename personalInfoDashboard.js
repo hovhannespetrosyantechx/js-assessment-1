@@ -19,7 +19,7 @@ console.log(`${ageString == ageNumber}, ${ageString === ageNumber}`);
 console.log(`ageString is ${typeof ageString} , ageNumer is ${typeof ageNumber}`);
 
 // Print grade
-let score = 122;
+let score = 42;
 let grade;
 if (score >= 90 && score <= 100){
     grade = 'A';
