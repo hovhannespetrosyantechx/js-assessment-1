@@ -9,7 +9,7 @@ const contact = {email: 'hovhannes.petrosyan.techx@gmail.com', phone:'+374963034
 
 // Intro
 console.log(`Hi, my name is ${firstName} ${lastName}. I live in ${contact.city}.`);
-console.log(`I am ${currentYear - birthYear} years old and currently ${isStudent ? "a student" : "not a student"}.`)
+console.log(`I am ${currentYear - birthYear} years old and currently ${isStudent ? "a student" : "not a student"}.`);
 
 // Type Coercion & Comparison
 let ageString = '25';
@@ -19,26 +19,26 @@ console.log(`${ageString == ageNumber}, ${ageString === ageNumber}`);
 console.log(`ageString is ${typeof ageString} , ageNumer is ${typeof ageNumber}`);
 
 // Print grade
-let score = 42;
+let score = 122;
 let grade;
 if (score >= 90 && score <= 100){
-    grade = 'A'
+    grade = 'A';
     console.log('A');
 }
 else if(score >= 80 && score <= 89){
-    grade = 'B'
+    grade = 'B';
     console.log('B');
 }
 else if(score >= 70 && score <= 79){
-    grade = 'C'
+    grade = 'C';
     console.log('C');
 }
 else if(score >= 60 && score <= 69){
-    grade = 'D'
+    grade = 'D';
     console.log('D');
 }
 else {
-    grade = 'F'
+    grade = 'F';
     console.log('F');
 }
 
@@ -62,3 +62,4 @@ switch(grade) {
 
 // Pass or fail mesaage
 console.log(score >= 70 ? 'You passed' : 'You failed');
+
